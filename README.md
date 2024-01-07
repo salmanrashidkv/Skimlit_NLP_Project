@@ -13,12 +13,11 @@ The number of RCT papers released is continuing to increase, those without struc
 #### Solution in a sentence
 Create an NLP model to classify abstract sentences into the role they play (e.g. objective, methods, results, etc) to enable researchers to skim through the literature.
 
-Downloading a text dataset (PubMed RCT200k from GitHub)
-Writing a preprocessing function to prepare our data for modelling
-Setting up a series of modelling experiments
-Making a baseline (TF-IDF classifier)
-Deep models with different combinations of: token embeddings, character embeddings, pretrained embeddings, positional embeddings
-Building our first multimodal model (taking multiple types of data inputs)
-Replicating the model architecture from https://arxiv.org/abs/1612.05251
-Find the most wrong predictions
-Making predictions on PubMed abstracts from the wild
+- Downloading a text dataset (PubMed RCT200k from GitHub)
+- Writing a preprocessing function to prepare our data for modelling
+- Setting up a series of modelling experiments
+- Making a baseline (TF-IDF classifier)
+- Deep models with different combinations of: token embeddings, character embeddings, pretrained embeddings, positional embeddings
+- Building multimodal model (taking multiple types of data inputs)
+- Replicating the model architecture from https://arxiv.org/abs/1612.05251
+- Making predictions on PubMed abstracts from the wild
